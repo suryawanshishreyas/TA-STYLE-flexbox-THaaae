@@ -1,8 +1,58 @@
-<!-- 
-- Create a gallery using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
--->
+<!DOCTYPE html>
+ <html lang="eng">
+     <head>
+         <meta charset="UTF-8">
+         <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+        <header>
+            <div class="container container1">
+                <div><img src="logo.png" alt="valorant.png"></div>
+                <nav>
+                     <a href="#">Home</a>
+                     <a href="#">About</a>
+                     <a href="#">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="gallery">
+                <div class="container">
+                    <div class="container3">
+                        <div class="col">
+                            <img src="Raze.png" alt="raze">
+                        </div>
+                        <div class="col">
+                           <img src="jett.png" alt="jett">
+                        </div>
+                        <div class="col">
+                           <img src="phoenix.png" alt="phoenix">
+                        </div>
+                        <div class="col">
+                           <img src="reyna.png" alt="reyna">
+                        </div>
+                        <div class="col">
+                           <img src="sova.png" alt="sova">
+                        </div>
+                        <div class="col">
+                           <img src="breach.png" alt="breach">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container flex3">
+                <small class="footer">&copy; Altcampus</small>
+                <nav>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </nav>
+            </div>
+        </footer>
+     </body>
+ </html>
